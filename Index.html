@@ -1,125 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Secular+One&display=swap" rel="stylesheet" />
-
     <link rel="stylesheet" href="./src/css/Stile.css" />
     <link rel="stylesheet" href="./src/css/reset.css" />
     <link rel="stylesheet" href="./src/css/responsive.css" />
-
-    <title>Re zero</title>
+    <link rel="stylesheet" href="src/css/slide.css">
+    <title>Document</title>
 </head>
-
 <body>
     <header>
         <nav>
             <img class="logo-nav" src="./src/imagens/Rezero-logo-Nav.png" alt="Subaru" />
             <ul class="nav-list">
                 <li>
-                    <a href="">Personagens</a>
+                    <a href="index.html">Inicio</a>
                 </li>
                 <li>
-                    <a href="">Historia</a>
+                    <a href="Personagens.html">Personagens</a>
                 </li>
                 <li>
-                    <a href="">Curiosidade</a>
+                    <a href="Historia.html">Historia</a>
+                </li>
+                <li>
+                    <a href="Curiosidade.html">Curiosidade</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <main class="personagens">
-        <div class="personagem">
-            <img class="imagem" src="./src/imagens/Subaru.png" alt="Subaru" />
-            <div class="conteudo">
-                <i class="logo"></i>
-                <h2 class="nome-personagem">Subaru</h2>
-                <p class="descricao"> É um otaku que foi enviado a um mundo de fantasia. Ele oficialmente vira o
-                    cavaleiro de Emilia depois do incidente no Santuário e é revelado posteriormente como possuindo
-                    qualificações como aprendiz de sábio.</p>
+
+    <section class="slider">
+            <div class="slider-content">
+                <input type="radio" name="btn-radio" id="bt1">
+                <input type="radio" name="btn-radio" id="bt2">
+                <input type="radio" name="btn-radio" id="bt3">
+                <input type="radio" name="btn-radio" id="bt4">
+                <input type="radio" name="btn-radio" id="bt5">
+
+                <div class="silde-box primeiro">
+                    <img src="src/imagens/Subaru-Slide2.png" alt="Slide-Subaru" width="1600vw">
+                </div>
+                <div class="silde-box">
+                    <img src="src/imagens/Beatrice-Slide2.png" alt="Slide-Beatrice" width="1600vw">
+                </div>
+                <div class="silde-box">
+                    <img src="src/imagens/Emilia-Slide2.png" alt="Slide-Emilia" width="1600vw">
+                </div>
+                <div class="silde-box">
+                    <img src="src/imagens/Rem-Slide2.png" alt="Slide-Rem" width="1600vw">
+                </div>
+                <div class="silde-box">
+                    <img src="src/imagens/Novel-Slide2.jpg" alt="Slide-Novel" width="1600vw">
+                </div>
+
+                <div class="nav-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                    <div class="auto-btn5"></div>
+                </div>
+
+                <div class="nav-manual">
+                    <label for="1" class="manual-btn"></label>
+                    <label for="2" class="manual-btn"></label>
+                    <label for="3" class="manual-btn"></label>
+                    <label for="4" class="manual-btn"></label>
+                    <label for="5" class="manual-btn"></label>
+                </div>
             </div>
-        </div>
-
-        <div class="personagem">
-            <img class="imagem" src="./src/imagens/Emilia.jpg" alt="Emilia" />
-            <div class="conteudo">
-                <i class="logo"></i>
-                <h2 class="nome-personagem">Emilia</h2>
-                <p class="descricao"> É uma garota meio elfa de cabelos prateados e uma usuária de arte espiritual,
-                    ela é uma das candidatas a se tornar a próxima governante na eleição real, tornando-a 42º rei de
-                    Lugunica.</p>
-            </div>
-        </div>
-
-        <div class="personagem selecionado">
-            <img class="imagem" src="./src/imagens/Rem.jpg" alt="Rem" />
-            <div class="conteudo">
-                <i class="logo"></i>
-                <h2 class="nome-personagem">Rem</h2>
-                <p class="descricao">Rem é uma das empregadas gêmeas que trabalham para Roswaal L Mathers.
-                    Ela é quase idêntica à irmã, exceto pelo cabelo, olhos e coloração da fita.
-                </p>
-            </div>
-        </div>
-
-        <div class="personagem">
-
-            <img class="imagem" src="./src/imagens/Ram.png" alt="Ram" />
-            <div class="conteudo">
-                <i class="logo"></i>
-                <h2 class="nome-personagem">Ram</h2>
-                <p class="descricao">Irmã gêmea Rem, Ram é aparentemente egocêntrica e faz as coisas no seu próprio
-                    ritmo,
-                    no entanto, na verdade, ela mantém uma distância das pessoas para averiguar.</p>
-            </div>
-        </div>
-
-        <div class="personagem">
-            <img class="imagem" src="./src/imagens/Reinhard.jpg" alt="Reinhard" />
-            <div class="conteudo">
-                <i class="logo"></i>
-                <h2 class="nome-personagem">Reinhard</h2>
-                <p class="descricao">Reinhard van Astrea é o atual Santo da Espada e um membro da Guarda Real,
-                    atuando atualmente como cavaleiro de Felt. Reinhard é incrivelmente poderoso, um dos personagens
-                    mais poderosos da série, uma maneira de ver esse fato é através de suas Proteções Divinas que são
-                    bênçãos dadas às pessoas ao nascer.</p>
-            </div>
-        </div>
-    </main>
-    <ul class="botoes">
-        <li>
-            <button class="botao">
-                <img src="./src/imagens/Subaru-Icon.jpg" alt="Subaru Icon" width="128px" />
-            </button>
-        </li>
-        <li>
-            <button class="botao">
-                <img src="./src/imagens/Emilia-Icon.jpg" alt="Emilia Icon" width="128px" />
-            </button>
-        </li>
-        <li>
-            <button class="botao selecionado">
-                <img src="./src/imagens/Rem-Icon.jpg" alt="Rem Icon" width="128px" />
-            </button>
-        </li>
-        <li>
-            <button class="botao">
-                <img src="./src/imagens/Ram-Icon.jpg" alt="Ram Icon" width="128px" />
-            </button>
-        </li>
-        <li>
-            <button class="botao">
-                <img src="./src/imagens/Reinhard-Icon.jpg" alt="Reinhard" width="128px" />
-            </button>
-        </li>
-    </ul>
-
-    <script src="./src/js/Script.js"></script>
+    </section>
+    <script src="src/js/Slide.js"></script>
 </body>
-
 </html>
