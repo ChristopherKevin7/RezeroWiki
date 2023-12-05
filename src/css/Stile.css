@@ -168,7 +168,7 @@ main .personagem .imagem {
     top: 8vh;
     right: 0;
     height: 92vh;
-    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+    overflow-y: auto; 
     display: flex;
     flex-direction: column;
     align-items: center;
