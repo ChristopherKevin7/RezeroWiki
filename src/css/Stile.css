@@ -132,7 +132,7 @@ main .personagem .imagem {
     box-shadow: 0 0 10px #D9D9D9;
 }
 
-.Historia-Index-Conteudo{
+.Index-Conteudo{
     display: flex;
     
 }
@@ -178,8 +178,120 @@ main .personagem .imagem {
 }   
 
 .footer {
+   
     height: 250px;
     width: 100%;
     background-color: #632772;
+    display: flex;
 
+}
+
+hr {
+   
+    margin-bottom: 30px;
+}
+
+.links li{
+    display: list-item;
+    margin-left: 2vw;
+    padding-top: 4vh;
+    font-size: medium;
+    width: 200px;
+
+}
+.links li a{
+    color: #ffffff;
+}
+
+.Descricao{
+    position: relative;
+    padding-top: 50px;
+    margin-left: 25vw;
+    margin-right: 15vw;
+    color: #ffffff;
+    text-align: justify;
+    width: 45vw;
+}
+
+.Redes {
+    margin-left: 2vw;
+    padding-top: 4vh;
+}
+
+.Redes li{
+    margin-bottom: 10px;
+}
+
+.Acompanha-Tela {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.Acompanha-Tela img {
+    height: 280px;
+}
+
+.cabecalho-historia {
+    background-image: url('../imagens/cabecalho-rezero.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #000000;
+    padding: 100px 20px;
+}
+
+.cabecalho-historia h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.cabecalho-historia .subtitulo {
+    font-family: 'Merienda', cursive;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.Body-Historia {
+    display: flex;
+}
+
+.Aside-Left-Historia {
+    width: 20vw;
+}
+.Aside-Right-Historia {
+    width: 20vw;
+}
+
+.Titulos-Historia {
+    padding: 25px;
+    background-color: #632772;
+    color: #ffffff;
+    font-size: x-large;
+    width: 100%;
+}
+
+.Corpo {
+    width: 60vw;
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+
+.Conteudo-Introducao {
+    display: flex;
+}
+
+.Img-Introducao {
+    width: 60vw;
+}
+
+.Img-Introducao img{
+    width: 100%;
+    float: left;
+}
+
+.Texto-Introducao {
+    text-align: justify;
+    margin: 10px;
 }
