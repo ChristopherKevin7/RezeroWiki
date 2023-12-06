@@ -71,12 +71,12 @@ main .personagem .imagem {
 .conteudo {
     position: absolute;
     top: 8vh;
-    left: 120px;
+    left: 6vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 92vh;
-    max-width: 380px;
+    max-width: 30vw;
     z-index: 1;
 }
 
@@ -85,7 +85,7 @@ main .personagem .imagem {
     font-size: 48px;
     font-family: "Secular One";
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 3vh;
 }
 
 .conteudo .descricao {
@@ -99,7 +99,7 @@ main .personagem .imagem {
     background-size: cover;
     height: 100px;
     width: 230px;
-    margin-bottom: 35px;
+    margin-bottom: 5vh;
 }
 
 
@@ -232,6 +232,10 @@ hr {
     height: 280px;
 }
 
+.Acompanha-Tela :hover{
+    cursor: pointer;
+}
+
 .cabecalho-historia {
     background-image: url('../imagens/cabecalho-rezero.jpg');
     background-size: cover;
@@ -258,10 +262,10 @@ hr {
 }
 
 .Aside-Left-Historia {
-    width: 20vw;
+    width: 15vw;
 }
 .Aside-Right-Historia {
-    width: 20vw;
+    width: 15vw;
 }
 
 .Titulos-Historia {
@@ -273,7 +277,7 @@ hr {
 }
 
 .Corpo {
-    width: 60vw;
+    width: 70vw;
     border-left: 1px solid;
     border-right: 1px solid;
 }
@@ -283,15 +287,102 @@ hr {
 }
 
 .Img-Introducao {
-    width: 60vw;
+    width: 35vw;
+    max-width: 100%;
+    
 }
 
-.Img-Introducao img{
+.Img-Introducao img {
     width: 100%;
-    float: left;
+    height: auto;
+    display: block;
 }
+
 
 .Texto-Introducao {
+    width: 65vw;
     text-align: justify;
     margin: 10px;
+    text-indent: 15px;
+    font-family: 'Merienda', cursive;
+    font-size: 15px;
+}
+
+.cabecalho-Curiosidades {
+    background-image: url('../imagens/Cabecalho-Curiosidades.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #000000;
+    padding: 100px 20px;
+}
+
+.cabecalho-Curiosidades h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.cabecalho-Curiosidades .subtitulo {
+    font-family: 'Merienda', cursive;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.Informacoes {
+    width: 23em;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid;
+    text-align: left;
+    font-size: 88%;
+    border-right: 1px solid;
+}
+
+.Header-Info {
+    background-color: #9542aa; 
+    font-size: 120%; 
+    font-weight: bold; 
+    text-align:center;
+}
+
+.Subtitulo-Info {
+    text-align:center;
+    background-color: #b852d1;
+    vertical-align: middle;
+}
+
+.Info-Titulo {
+    text-align:center; 
+    background-color: #b852d1;
+    vertical-align: middle;
+}
+
+.Gen {
+    vertical-align: top; 
+    text-align: left; 
+    text-align: left; 
+    width: 90px;
+    font-weight: bold;
+}
+.Img-Introducao table {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+details p {
+    text-align: justify;
+    margin: 10px;
+    text-indent: 15px;
+    font-family: 'Merienda', cursive;
+    font-size: 15px;
+}
+
+.Text {
+    text-align: justify;
+    margin: 10px;
+    text-indent: 15px;
+    font-family: 'Merienda', cursive;
+    font-size: 15px;
 }
