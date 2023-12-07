@@ -7,7 +7,7 @@ section.slider {
 }
 
 .slider-content{
-    width: 400%;
+    width: 500%;
     height: auto;
     display: flex;
     
@@ -18,7 +18,7 @@ section.slider {
 }
 
 .slider-box{
-    width: 25%;
+    width: 20%;
     height: auto;
     position: relative;
     text-align: center;
@@ -31,7 +31,7 @@ section.slider {
 .nav-manual, .nav-auto{
     position: absolute;
     width: 100%;
-    margin-top: 41%;
+    margin-top: 40%;
     display: flex;
     justify-content: center;
 }
@@ -39,10 +39,13 @@ section.slider {
 .nav-manual .manual-btn, .nav-auto div{
     border: 1px solid #500d61;
     padding: 10px;
-    margin: 5px;
     border-radius: 50%;
     cursor: pointer;
     transition: 0.3s;
+}
+
+.nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
+    margin-right: 10px;
 }
 
 .nav-manual .manual-btn:hover{
@@ -59,18 +62,18 @@ section.slider {
     transition: 1s;
 }
 #bt2:checked ~ .primeiro{
-    margin-left: -26%;
+    margin-left: -20%;
     transition: 1s;
 }
 #bt3:checked ~ .primeiro{
-    margin-left: -52%;
+    margin-left: -40%;
     transition: 1s;
 }
 #bt4:checked ~ .primeiro{
-    margin-left: -77%;
+    margin-left: -60%;
     transition: 1s;
 }
 #bt5:checked ~ .primeiro{
-    margin-left: -103%;
+    margin-left: -80%;
     transition: 1s;
 }
