@@ -43,6 +43,11 @@ a:hover{
    
 }
 
+.Search {
+    position: absolute;
+    right: 10px;
+}
+
 .mobile-menu {
     cursor: pointer;
     display: none;
@@ -173,6 +178,7 @@ main .personagem .imagem {
     gap: 10px;
     background-color: rgba(80, 13, 97, 0.4);
     width: 150px;
+    
 }
 
 
@@ -240,7 +246,7 @@ main .personagem .imagem {
 
 .footer {
    
-    height: 250px;
+    height: 35vh;
     width: 100%;
     background-color: #632772;
     display: flex;
@@ -290,12 +296,10 @@ hr {
 }
 
 .Acompanha-Tela img {
-    height: 280px;
+    height: 15vw;
+    display: flex;
 }
 
-.Acompanha-Tela :hover{
-    cursor: pointer;
-}
 
 .cabecalho-historia {
     background-image: url('../imagens/cabecalho-rezero.jpg');
